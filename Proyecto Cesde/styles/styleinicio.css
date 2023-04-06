@@ -1,0 +1,106 @@
+/* A #1451FB, B #1273E3, C #21B0FA, D #12C7E3, E #3BFFF0, Ngro #000000, blco #ffffff, Grs #C9C9C9 */
+
+
+header{
+    background: #21b0fa; 
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+}
+footer{
+    background: #12C7E3;
+    margin: 0px;
+    height: 100px;
+    width: 100%;
+}
+/* div login-box,user-box{
+    align-content: center;
+} */
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#ffffff , #c9c9c9);
+}
+/* .login-box{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background:#1273E3;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px#1273E3;
+    border-radius: 10px;
+}       
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+.login-box .user-box{
+    position: relative;
+}
+.login-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+.login-box .user-box input:focus ~
+ label,
+ .login-box .user-box input:valid ~ 
+ label {
+    top: -20px;
+    left: 0;
+    color: #21b0fa;
+    font-size: 12px;
+}
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color:#21b0fa;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow-y: hidden;
+    transition: 05s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+.login-box a:hover{
+    background: #21b0fa;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #21b0fa;
+     */
+
+}               
+@keyframes btn-anima{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+} 
