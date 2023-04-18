@@ -1,0 +1,48 @@
+/* A #1451FB, B #1273E3, C #21B0FA, D #12C7E3, E #3BFFF0, Ngro #000000, blco #ffffff, Grs #C9C9C9 */
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.sec1 ul{
+    padding: 0;
+    list-style-type: none;
+}
+.sec1 ul li {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 1.25rem;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em #00000033;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+    }
+.sec1 ul li:nth-child(odd){
+        background: linear-gradient(to right,#1273e3,#21b0fa);
+        text-align: left;
+        padding-left: 10% ;
+        transform: perspective(500px)rotateY(45deg);
+    }
+.sec1 ul li:nth-child(even){
+        background: linear-gradient(to left,#1273e3,#21b0fa);
+        text-align: right;
+        padding-right: 10%;
+        transform: perspective(500px)rotateY(-45deg);
+    }
+.sec1 ul li:nth-child(odd):hover{
+        transform: perspective(200px)rotateY(45deg);
+        padding-left: 5%;    
+    }
+.sec1 ul li:nth-child(even):hover{
+        transform: perspective(200px)rotateY(-45deg);
+        padding-right: 5%;
+    }
