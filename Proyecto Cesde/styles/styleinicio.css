@@ -27,14 +27,14 @@ body{
     font-family: sans-serif;
     background: linear-gradient(#ffffff , #c9c9c9);
 }
- .login-box{
+.login-box{
     position: relative;
     top: 50%;
     left: 30%;
     width: 400px;
     padding: 40px;
     transform: translate(-50%,-50%);
-    background:#1273E3;
+    background:#fff;
     box-sizing: border-box;
     box-shadow: 0 15px 25px#1273E3;
     border-radius: 10px;
