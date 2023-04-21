@@ -2,6 +2,23 @@
     box-sizing: border-box;
     
 }
+header{
+    position: absolute;
+    background: #21b0fa; 
+    margin: 0px;
+    height: 4rem;
+    width: 100%;
+    top: 0;
+}
+footer{
+    position: absolute;
+    background: #12C7E3;
+    margin:-4px;
+    height: 4rem;
+    width: 100%;
+    bottom: .3125rem;
+    
+}
 /* header{
     position: relative;
     background: #21b0fa; 
