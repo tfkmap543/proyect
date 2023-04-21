@@ -1,17 +1,25 @@
 *{
     box-sizing: border-box;
-}
-header{
-    background: #21b0fa; 
-    margin: 0px;
-    height: 4rem;
-    width: 100%;
-    top: 0;
-}
-footer{
-    background: #12C7E3;
-    margin: 0px;
-    height: 4rem;
-    width: 100%;
     
 }
+/* header{
+    position: relative;
+    background: #21b0fa; 
+    height: 4rem;
+    width: 500px;
+    margin-bottom: 41.5625rem;
+    margin-top: 16px;
+    top: 0px;
+    right: 0px;
+   
+}
+footer{
+    position: relative;
+    background: #12C7E3;
+    margin-bottom: 0rem ;
+    margin-top: 40.5625rem ;
+    height: 4rem;
+    width: 100%;
+   
+    
+} */
