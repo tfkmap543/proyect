@@ -46,3 +46,6 @@ body{
         transform: perspective(200px)rotateY(-45deg);
         padding-right: 5%;
     }
+.sec1 ul li a{
+    color: #fff;
+}
