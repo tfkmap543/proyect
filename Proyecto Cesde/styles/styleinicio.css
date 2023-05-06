@@ -62,6 +62,10 @@ body{
 
 }
 
+a{
+    text-decoration: none;
+}
+
 /* .login-box{
     display: flex;
     flex-direction: column;
