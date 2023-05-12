@@ -9,9 +9,9 @@ html{
 header{
     position: absolute;
     background: #21b0fa; 
-    margin: 0px;
+    margin: -6px;
     height: 4rem;
-    width: 99.5%;
+    width: 100%;
     top: 0;
 }
 footer{
