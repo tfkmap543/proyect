@@ -16,7 +16,7 @@ cerrar.addEventListener("click", function () {
     setTimeout(function () { //indica realizar una funcion en determinado tiempo
         modalContainer.style.opacity = "0";
         modalContainer.style.visibility = "hidden";
-    }, 0)
+    },600)
 
 });
 window.addEventListener("click", function (e) {
@@ -27,6 +27,6 @@ window.addEventListener("click", function (e) {
         setTimeout(function () { //indica realizar una funcion en determinado tiempo
             modalContainer.style.opacity = "0";
             modalContainer.style.visibility = "hidden";
-        }, 0)
+        }, 600)
     }
 });
