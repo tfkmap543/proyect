@@ -76,6 +76,9 @@ body {
     font-family: sans-serif;
     background: #fff;
 }
+a{
+    text-decoration: none;
+}
 
 .boxinicio {
     display: flex;
