@@ -48,4 +48,8 @@ body{
     }
     .sec1 ul li a{
         color:#fff;
+        text-decoration: none; 
     }
+    /* .sec1 ul li a:hover{
+        color:#000000;
+    } */
