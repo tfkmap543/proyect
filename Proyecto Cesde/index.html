@@ -1,58 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styleinicio.css">
-    <link rel="stylesheet" href="styles/stylegen.css">
+
     <title>Inicio</title>
 </head>
+
 <body>
-    <header>    
+    <header>
         <!-- <nav></nav> -->
-        <div><img src="" alt=""></div>
-        
+        <!-- <div><img src="" alt=""></div> -->
+
 
     </header>
     <main>
-        <div class="boxinicio">
-            <div class="login-box">
-                <div>
-                    <h2>¿eres cliente mayorista?</h2>
+
+        <Section id="sec-user">
+
+            <div class="boxinicio">
+                <div class="login-box">
+                    <div>
+                        <h2>¿Eres cliente mayorista?</h2>
+                    </div>
+                    <div>
+                        <a class="tipo_usuario" href="#">ingresa aqui</a>
+                    </div>
+                    <div>
+                        <a clas="registro_usuario" href="">Resitrarse como cliente mayorista</a>
+                    </div>
+                    <div>
+                        <h2>¿No eres cliente mayorista?</h2>
+                    </div>
+                    <div>
+                        <a a clas="tipo_usuario" href="">ingresaa aqui</a>
+                    </div>
+
+
                 </div>
-                <div>
-                    <a clas="tipo_usuario" href="">ingresa aqui</a>
+                <div class="imgbox">
+                    <div>
+                        <h2>imagen</h2>
+                    </div>
                 </div>
-                <div>
-                    <a clas="registro_usuario" href="">Resitrarse como cliente mayorista</a>
-                </div>
-                <div>
-                    <h2>¿No eres cliente mayorista?</h2>
-                </div>
-                <div>
-                    <a   a clas="tipo_usuario" href="">ingresaa aqui</a>
-                </div>
-                    <!-- <form>
-                        <div class="user-box">
-                            <input type="text" name="usrbox" required="">
-                            <label for="">Usuario</label>
-                        </div>
-                        <div class="user-box">
-                            <input type="password" name="" required="">
-                            <label>Contraseña</label>
-                            <input type="submit">  
-                        </div>      
-                    </form> -->
-                
             </div>
-            <div class="imgbox">
-                <div>
-                    <h2>imagen</h2>
+        </Section>
+
+
+        <div class="modal-container-login">
+
+            <div class="modal-login modal-close">
+
+                <p class="close">
+                    X
+                </p>
+
+                <div class="user-box">
+                    <h2>Iniciar sesion</h2>
+
+                    <div class="ussrs">
+                        <label for="usr">Usuario</label>
+                        <input type="text" name="usrbox" id="usr">
+                    </div>
+                    <div class="pwsrd">
+                        <label for="pas">Contraseña</label>
+                        <input type="password" name="pass" id="pas">
+                    </div>
+                    <div>
+                        <a href="#">¿Ha olvidado su contraseña?</a>
+                    </div>
+                    <div id="butt">
+                        <button class="button-login">Ingresar</button>
+                    </div>
+
                 </div>
-            
+
             </div>
+
         </div>
+
     </main>
 
     <footer>
@@ -60,32 +89,35 @@
 
             <div class="redes_info">
                 <div class="box_footer">
+
                     <div class="company">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, tempore!</p>
-
                     </div>
+
                 </div>
                 <div class="redes_contact">
                     <div class="red1">
-
-                        <a href=""  class="enlaces" target="_blank">
-                            <img src="Icons/bxl-whatsapp-square.svg" alt="wpp_link" color="#1451FB">
+                        <a href="" class="enlaces" target="_blank">
+                            <img src="Icons/bxl-whatsapp-square.svg" alt="wpp_link" color="#1451FB" width="2.5rem"
+                                height="2.5rem">whatsapp
                         </a>
-
                     </div>
                     <div class="red2">
-                        <a href=""  class="enlaces" target="_blank">
-                            <img src="Icons/bxl-instagram-alt.svg" alt="inst_lin" color="#1451FB">
+                        <a href="" class="enlaces" target="_blank">
+                            <img src="Icons/bxl-instagram-alt.svg" alt="inst_lin" color="#1451FB" width="2.5rem"
+                                height="2.5rem">instagram
                         </a>
-
                     </div>
-                    
+
                 </div>
 
             </div>
 
         </div>
     </footer>
-    
+
+
+    <script src="js/main.js"></script>
 </body>
+
 </html>
