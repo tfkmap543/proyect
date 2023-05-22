@@ -7,16 +7,18 @@
 	width: 50%;
 	margin: 20px auto;
 	background-color: #fff;
-	padding: 0px;
+	color: #121010;
+	padding: 0;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
+	padding-bottom: 5%;
 }
-
 /* Estilos para el encabezado */
 h1 {
-	margin-bottom: 30px;
-}
+	margin-bottom: 20px;
+	color: #fff;
 
+}
 /* Estilos para las filas */
 .row {
 	display: grid;
@@ -24,7 +26,46 @@ h1 {
 	grid-gap: 20px;
 	align-items: start;
 }
-
 .column3 {
-	padding: 0px;
+	padding: 1px;	
+}
+input[value="ON"] {
+	background-color: #21b0fa;
+	color: white;
+	border-radius: 5px;	
+}  
+input[value="OFF"] {
+	background-color: #21b0fa;
+	color: white;
+	border-radius: 5px;
+}
+input[value="Generar Orden De Despacho"] {
+	background-color: #21b0fa;
+	color: white;
+	border-radius: 5px;
+}
+/* .container {
+	background-color: #fff;
+	color: #fff;
+} */
+header{
+	display: flex;
+	justify-content: center;
+	background-color: #21b0fa;
+	width: 100%;
+	text-align: center;
+
+}
+.titulo {
+	background-color: #21b0fa;
+	text-align: center;
+	margin: 0%;
+	
+
+}
+input#order{
+	background-color: #c8c7a8;
+}
+input#customer{
+	background-color:#c8c7a8;
 }

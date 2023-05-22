@@ -4,7 +4,7 @@ h1 {
 }
 
 form {
-  width: 45%;
+  width: 40%;
   margin: 0 auto;
   background-color: #c8c7a8;
   padding: 32px;
@@ -30,9 +30,10 @@ select {
 }
 
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #21B0FA;
   color: white;
   padding: 10px 20px;
+  margin-left: 50%;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -40,7 +41,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #21b0fa;
 }
 
 header {
@@ -48,4 +49,8 @@ header {
   color: #fff;
   /* Cambia el color del texto a blanco */
   padding: 10px;
+  padding-left: 0%;
+  margin-top: -6%;
+  margin-left: -6%;
+  margin-right: -6%;
 }
