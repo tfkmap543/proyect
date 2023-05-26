@@ -202,7 +202,12 @@ a{
     border-radius: 10px;
 }
 
-.button-login:hover  .button-close:hover{
+.button-login:hover  {
+    background-color: white;
+    color: black;
+    border: 2px solid #1451FB;
+}
+.close:hover  {
     background-color: white;
     color: black;
     border: 2px solid #1451FB;
