@@ -164,7 +164,7 @@ a{
 }
 
 .modal-close {
-    transform: translateY(-200);
+    transform: translateY(-200%);
 
 }
 
@@ -202,8 +202,102 @@ a{
     border-radius: 10px;
 }
 
-.button-login:hover {
+.button-login:hover  .button-close:hover{
     background-color: white;
     color: black;
     border: 2px solid #1451FB;
+}
+.container-registro{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modal-registro{
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relativa;
+    transition: transform 1s;
+    transform: translateY(0%);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px#1273E3;
+}
+.form-registro{
+    height: 60%;
+}
+#formregist{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.registro-lab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.registro-inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.buttom-regist{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.button-close{
+    background-color: #1451FB;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.buttom-save{
+    background-color: #1451FB;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.buttom-save:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #1451FB;
+}
+.button-close:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #1451FB;
+
 }

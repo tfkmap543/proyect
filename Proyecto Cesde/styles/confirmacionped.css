@@ -30,17 +30,17 @@ h1 {
 	padding: 1px;	
 }
 input[value="ON"] {
-	background-color: #21b0fa;
+	background-color: #1273E3;
 	color: white;
 	border-radius: 5px;	
 }  
 input[value="OFF"] {
-	background-color: #21b0fa;
+	background-color: #1273E3;
 	color: white;
 	border-radius: 5px;
 }
 input[value="Generar Orden De Despacho"] {
-	background-color: #21b0fa;
+	background-color: #1273E3;
 	color: white;
 	border-radius: 5px;
 }
