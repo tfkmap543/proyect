@@ -135,13 +135,13 @@ a{
 }
 
 .modal-login {
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
     background: #fff;
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relativa;
     transition: transform 1s;
     transform: translateY(0%);
@@ -150,6 +150,19 @@ a{
 }
 
 .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #1451FB;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.close_r {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -171,12 +184,104 @@ a{
 .user-box {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;   
     width: 100%;
     height: 100%;
 }
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    margin: 0%;
+    max-width: 250px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.form-login input{
+    width: 50%;
+    height: 100%;
+    background: none;
+    color: #000000;
+    padding-top: 10px;
+    border: none;
+    outline: 0px;
+}
+.form-login .lbl-nombre{
+    position: absolute;
+    bottom: 60%;
+    left: 20%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #000000;
+}
+.form-login .lbl-nombre::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #1451FB;
+    transform: translateX(-200%);
+    transition: all 0.3s ease;
+}
+.form-login .lbl-pwd{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #000000;
+}
+.form-login .lbl-pwd::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #1451FB;
+    transform: translateX(-200%);
+    transition: all 0.3s ease;
+}
+.text-nombre{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: #000000;
+}
+.text-pwd{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+    color: #000000;
+}
+.form-login input:focus + .lbl-nombre .text-nombre,.form-login input:valid + .lbl-nombre .text-nombre {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #1451FB;
+}
+.form-login input:focus + .lbl-nombre::after, .form-login input:valid + .lbl-nombre::after{
+    transform: translateX(0%);
+}
+.form-login input:focus + .lbl-pwd .text-pwd,.form-login input:valid + .lbl-pwd .text-pwd {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: #1451FB;
+}
+.form-login input:focus + .lbl-pwd::after, .form-login input:valid + .lbl-pwd::after{
+    transform: translateX(0%);
+}
 
-.ussrs {
+
+/* .ussrs {
     display: flex;
     justify-content: space-evenly;
 }
@@ -185,9 +290,10 @@ a{
     display: flex;
     justify-content: space-evenly;
     text-align: end;
-}
+} */
 
 .button-login {
+    /* bottom: 0; */
     background-color: #1451FB;
     border: none;
     color: white;
@@ -212,6 +318,11 @@ a{
     color: black;
     border: 2px solid #1451FB;
 }
+.closer:hover  {
+    background-color: white;
+    color: black;
+    border: 2px solid #1451FB;
+}
 .container-registro{
     opacity: 0;
     visibility: hidden;
@@ -228,8 +339,8 @@ a{
 
 }
 .modal-registro{
-    width: 50%;
-    height: 100%;
+    width: 53%;
+    height: 83%;
     background: #fff;
     text-align: center;
     display: flex;
@@ -241,18 +352,38 @@ a{
     border-radius: 10px;
     box-shadow: 0 1px 1px#1273E3;
 }
+.modal-rclose {
+    transform: translateY(-200%);
+
+}
+
 .form-registro{
+    display: flex;
+    justify-content: center;
     height: 60%;
+    
+    
 }
 #formregist{
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     
 }
 .registro-lab {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.registro-lab label{
+    left: 0;
+    margin: 1px;
+    padding: 1px;
+}
+.registro-inp input{
+
+    margin: 1px;
+    padding: 1px;
 }
 .registro-inp{
     display: flex;
