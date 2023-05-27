@@ -30,12 +30,12 @@ h1 {
 	padding: 1px;	
 }
 input[value="ON"] {
-	background-color: #1273E3;
+	background-color: #1451FB;
 	color: white;
 	border-radius: 5px;	
 }  
 input[value="OFF"] {
-	background-color: #1273E3;
+	background-color: #1451FB;
 	color: white;
 	border-radius: 5px;
 }
