@@ -74,11 +74,11 @@ butt_close.addEventListener("click", function () {
 window.addEventListener("click", function (e) {
     console.log(e.target)
     if (e.target == modalContregist ) {
-        cerrar_registro.classList.toggle("modal-rclose");
+        modal_registro.classList.toggle("modal-rclose");
 
         setTimeout(function () { //indica realizar una funcion en determinado tiempo
             modalContregist.style.opacity = "0";
             modalContregist.style.visibility = "hidden";
-        }, 300)
+        },300)
     }
 });
