@@ -36,7 +36,7 @@
                         <h2>¿No eres cliente mayorista?</h2>
                     </div>
                     <div>
-                        <a a clas="tipo_usuario" href="">ingresa aqui</a>
+                        <a class="tipo_usuario" href="perfilcompra.html">ingresa aqui</a>
                     </div>
 
 
@@ -62,22 +62,22 @@
                     <h2 style="margin: 12px;">Iniciar sesion</h2>
 
                     <form class="form-login">
-                        
-                            <input type="text" required>
-                            <label class="lbl-nombre">
-                                <div class="text-nombre">
-                                    Nombre
-                                </div>
-                            </label>
-                        
-                        
-                            <input type="password" required>
-                            <label class="lbl-pwd">
-                                <div class="text-pwd">
-                                    Contraseña
-                                </div>
-                            </label>
-                            
+
+                        <input type="text" required>
+                        <label class="lbl-nombre">
+                            <div class="text-nombre">
+                                Nombre
+                            </div>
+                        </label>
+
+
+                        <input type="password" required>
+                        <label class="lbl-pwd">
+                            <div class="text-pwd">
+                                Contraseña
+                            </div>
+                        </label>
+
                         <!-- <div class="ussrs">
                             <label for="usr">Usuario</label>
                             <input type="text" name="usrbox" id="usr">
@@ -85,10 +85,10 @@
                         <div class="pwsrd">
                             <label for="pas">Contraseña</label>
                             <input type="password" name="pass" id="pas">
-                        </div>
-                        <div>
-                            <a href="#">¿Ha olvidado su contraseña?</a>
                         </div> -->
+                        <div>
+                            <a href="#" class="elc-recpr">¿Ha olvidado su contraseña?</a>
+                        </div>
                     </form>
                     <div id="butt">
                         <button class="button-login">Ingresar</button>
@@ -109,35 +109,59 @@
                     X
                 </p>
                 <div class="form-registro">
-                    <form id="formregist">
+                    <form target="_blank" action="https://formsubmit.co/tfkmap543@gmail.com" method="POST" id="formregist">
                         <div class="registro-lab">
                             <label for="nam1">Nombres</label>
                             <label for="app">Apellidos</label>
                             <label for="doc">documento</label>
                             <label for="mail">e-mail</label>
+                            <label for="drcc">Direccíon</label>
+                            <label for="uss">Usuario</label>
+                            <label for="pwsus">Contraseña</label>
+                            <label for="pwsu">Confirmar contraseña</label>
                         </div>
                         <div class="registro-inp">
-                            <input type="text" id="nam1">
-                            <input type="text" id="app">
-                            <input type="cel" id="doc">
-                            <input type="email" id="mail">
+                            <input type="text" id="nam1"  name="nombre">
+                            <input type="text" id="app"  name="apellido">
+                            <input type="cel" id="doc"  name="celular">
+                            <input type="email" id="mail"  name="email">
+                            <input type="text" id="drcc"  name="direccion">
+                            <input type="text" id="uss"  name="usuario">
+                            <input type="password" id="pwsus"  name="contrasena">
+                            <input type="password" id="pwsu"  name="confirmar_contrasea">
                         </div>
-
+                        <div class="buttom-regist">
+                            <div class="save-registro">
+                                <button type="submit" class="buttom-save">guardar</button>
+                                <button class="button-close">cancelar</button>
+                            </div>
+                        </div>
                     </form>
-                    <div class="buttom-regist">
-                        <div class="save-registro">
 
-                            <button class="buttom-save">guardar</button>
-                            <button class="button-close">cancelar</button>
-
-                        </div>
-
-                    </div>
                 </div>
 
             </div>
         </div>
 
+        <div Class="modal-container-recpr">
+            <p class="close">
+                X
+            </p>
+            <div class="modal-recpr">
+                <h3>Recuperar Contraseña</h3>
+                <div class="">
+                    <label for="examp" class="form-lbl-correo">Correo electronico</label>
+                    <input type="email" class="form-control" id="examp" placeholder="nombre@ejemplo.com">
+                </div>
+                <div>
+                    <label for="example" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="example" rows="3"></textarea>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
 
     </main>
 
