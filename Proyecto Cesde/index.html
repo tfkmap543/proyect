@@ -30,7 +30,7 @@
                         <a class="tipo_usuario" href="#">ingresa aqui</a>
                     </div>
                     <div>
-                        <a clas="registro_usuario" href="">Resitrarse como cliente mayorista</a>
+                        <a class="registro_usuario" href="">Resitrarse como cliente mayorista</a>
                     </div>
                     <div>
                         <h2>¿No eres cliente mayorista?</h2>
@@ -59,19 +59,37 @@
                 </p>
 
                 <div class="user-box">
-                    <h2>Iniciar sesion</h2>
+                    <h2 style="margin: 12px;">Iniciar sesion</h2>
 
-                    <div class="ussrs">
-                        <label for="usr">Usuario</label>
-                        <input type="text" name="usrbox" id="usr">
-                    </div>
-                    <div class="pwsrd">
-                        <label for="pas">Contraseña</label>
-                        <input type="password" name="pass" id="pas">
-                    </div>
-                    <div>
-                        <a href="#">¿Ha olvidado su contraseña?</a>
-                    </div>
+                    <form class="form-login">
+                        
+                            <input type="text" required>
+                            <label class="lbl-nombre">
+                                <div class="text-nombre">
+                                    Nombre
+                                </div>
+                            </label>
+                        
+                        
+                            <input type="password" required>
+                            <label class="lbl-pwd">
+                                <div class="text-pwd">
+                                    Contraseña
+                                </div>
+                            </label>
+                            
+                        <!-- <div class="ussrs">
+                            <label for="usr">Usuario</label>
+                            <input type="text" name="usrbox" id="usr">
+                        </div>
+                        <div class="pwsrd">
+                            <label for="pas">Contraseña</label>
+                            <input type="password" name="pass" id="pas">
+                        </div>
+                        <div>
+                            <a href="#">¿Ha olvidado su contraseña?</a>
+                        </div> -->
+                    </form>
                     <div id="butt">
                         <button class="button-login">Ingresar</button>
                     </div>
@@ -84,10 +102,10 @@
 
         <div class="container-registro">
 
-            <div class="modal-registro modal-regisclose">
-                
+            <div class="modal-registro modal-rclose">
+
                 <h2>Registro de Usuario</h2>
-                <p class="close">
+                <p class="close_r">
                     X
                 </p>
                 <div class="form-registro">
@@ -104,7 +122,7 @@
                             <input type="cel" id="doc">
                             <input type="email" id="mail">
                         </div>
-                        
+
                     </form>
                     <div class="buttom-regist">
                         <div class="save-registro">
