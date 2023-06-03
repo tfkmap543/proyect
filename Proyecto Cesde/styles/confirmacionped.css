@@ -4,7 +4,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 50%;
+	width: 40%;
 	margin: 20px auto;
 	background-color: #fff;
 	color: #121010;
@@ -68,4 +68,11 @@ input#order{
 }
 input#customer{
 	background-color:#c8c7a8;
+}
+@media screen and (max-width: 500px) {	
+	.container{
+	display: grid ;
+	grid-template-columns: 1fr;		
+	}
+	
 }
