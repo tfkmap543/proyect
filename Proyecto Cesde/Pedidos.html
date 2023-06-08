@@ -4,55 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmación de Pedidos</title>
+    <title>Pedidos</title>
     <link rel="stylesheet" href="styles/pedidos.css">
-
-
+    <header>
+        <div class="titulo">
+           <h1>Pedidos</h1>
+        </div>
+    </header>
+    
 <body>
-    <div class="row-container">
-        <div class="column1">
-          <label for="ref">Ref:</label>
-          <input type="text" id="ref" name="ref" />
-          <input type="text" id="ref" name="ref" />
-          <input type="text" id="ref" name="ref" />
-          <input type="text" id="ref" name="ref" />
-          <input type="text" id="ref" name="ref" />
-          <input type="text" id="ref" name="ref" />
+    <div class="container">
+        <div class="row">
+            <div class="col-8"></div>
+            <div class="col-4"></div>        
+              <label for="order">Orden #:</label>
+              <input type="text" id="order" name="order"><br><br>            
         </div>
+        <div class="row">
+            <div class="column1">
+                <label for="ref">Ref:</label><br><br>
+                <input type="text" id="ref" name="ref" /><br>
+                <input type="text" id="ref" name="ref" /><br>
+                <input type="text" id="ref" name="ref" /><br>
+                <input type="text" id="ref" name="ref" /><br>
+                <input type="text" id="ref" name="ref" /><br>
+                <input type="text" id="ref" name="ref" /><br>
+                <input type="text" id="ref" name="ref" /><br>
+                <input type="text" id="ref" name="ref" /><br>
+            </div>
         
-        <div class="column">
-          <label for="producto">Producto:</label>
-          <input type="text" id="producto" name="producto" />
-          <input type="text" id="producto" name="producto" />
-          <input type="text" id="producto" name="producto" />
-          <input type="text" id="producto" name="producto" />
-          <input type="text" id="producto" name="producto" />
-          <input type="text" id="producto" name="producto" />
+                <div class="column2">
+                    <label for="producto">Producto:</label><br><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                    <input type="text" id="producto" name="producto" /><br>
+                </div>
+            
+                <div class="column3">
+                    <label for="cantidad">Cantidad:</label><br><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                    <input type="number" id="cantidad" name="cantidad" /><br>
+                </div>
+            
+                <div class="column4">
+                    <label for="precio">Precio:</label><br><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                    <input type="number" id="precio" name="precio" /><br>
+                </div>
+            </div><br>  
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 offset-md-4"></div>
+                    <label for="precio">Total productos:</label>
+                    <input type="number" id="Total productos" name="Total productos" /><br>
+                </div>
+                <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 offset-md-4"></div>            
+                    <label for="precio">Valor:</label>
+                    <input type="number" id="Valor" name="Valor" /><br>
+                </div>
+                <input type="submit" value="Crear Pedido">  
+                <br><br>
+            </div>
         </div>
-        
-        <div class="column">
-          <label for="cantidad">Cantidad:</label>
-          <input type="number" id="cantidad" name="cantidad" />
-          <input type="number" id="cantidad" name="cantidad" />
-          <input type="number" id="cantidad" name="cantidad" />
-          <input type="number" id="cantidad" name="cantidad" />
-          <input type="number" id="cantidad" name="cantidad" />
-          <input type="number" id="cantidad" name="cantidad" />
-        </div>
-        
-        <div class="column">
-          <label for="precio">Precio:</label>
-          <input type="number" id="precio" name="precio" />
-          <input type="number" id="precio" name="precio" />
-          <input type="number" id="precio" name="precio" />
-          <input type="number" id="precio" name="precio" />
-          <input type="number" id="precio" name="precio" />
-
-        </div>
-      </div>
-      
-     
-      <br />
-      <input type="submit" value="Enviar Pedido" />
+    </div>
+    <footer>
+            
+    </footer>
+    
 </body>
 </html>

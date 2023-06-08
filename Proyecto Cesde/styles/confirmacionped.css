@@ -4,7 +4,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	width: 50%;
+	width: 40%;
 	margin: 20px auto;
 	background-color: #fff;
 	color: #121010;
@@ -12,6 +12,7 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 	padding-bottom: 5%;
+	
 }
 /* Estilos para el encabezado */
 h1 {
@@ -30,12 +31,12 @@ h1 {
 	padding: 1px;	
 }
 input[value="ON"] {
-	background-color: #1273E3;
+	background-color: #1451FB;
 	color: white;
 	border-radius: 5px;	
 }  
 input[value="OFF"] {
-	background-color: #1273E3;
+	background-color: #1451FB;
 	color: white;
 	border-radius: 5px;
 }
@@ -68,4 +69,11 @@ input#order{
 }
 input#customer{
 	background-color:#c8c7a8;
+}
+@media screen and (max-width: 500px) {	
+	.container{
+	display: grid ;
+	grid-template-columns: 1fr;		
+	}
+	
 }

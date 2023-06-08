@@ -1,4 +1,9 @@
 /* Estilos para el formulario */
+.container{
+  gap: 20px;
+  display: grid;
+  width: 100%;
+}
 h1 {
   text-align: center;
 }
@@ -10,6 +15,7 @@ form {
   padding: 32px;
   border-radius: 10px;
   font-family: Arial, sans-serif;
+  display: grid;
 }
 
 label {
@@ -38,6 +44,8 @@ input[type="submit"] {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  display: grid;
+  gap 20px;
 }
 
 input[type="submit"]:hover {
