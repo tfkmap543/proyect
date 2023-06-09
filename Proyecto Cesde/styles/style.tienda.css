@@ -95,6 +95,23 @@ ul {
     list-style-type: none;
 }
 
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	.contenedor{
+		flex-wrap: wrap;
+	}
+	
+}
+
+@media screen and (max-width: 500px) {
+	
+	.card{
+		width: 100%;
+	}
+}
 
 
 
