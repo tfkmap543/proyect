@@ -6,10 +6,11 @@ h1 {
 form {
   width: 40%;
   margin: 0 auto;
-  background-color: #c8c7a8;
+  background-color: rgb(162, 156, 156);
   padding: 32px;
   border-radius: 10px;
   font-family: Arial, sans-serif;
+ 
 }
 
 label {

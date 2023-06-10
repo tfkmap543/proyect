@@ -6,7 +6,7 @@
 	justify-content: center;
 	width: 40%;
 	margin: 20px auto;
-	background-color: #fff;
+	background-color: rgb(162, 156, 156);
 	color: #121010;
 	padding: 0;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -65,10 +65,10 @@ header{
 
 }
 input#order{
-	background-color: #c8c7a8;
+	background-color: white;
 }
 input#customer{
-	background-color:#c8c7a8;
+	background-color:white;
 }
 @media screen and (max-width: 500px) {	
 	.container{

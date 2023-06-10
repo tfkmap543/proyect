@@ -309,6 +309,13 @@ a{
     border-radius: 10px;
 }
 
+#butt a:visited{
+    color: white;
+}
+#butt a:hover{
+    color: #000000;
+}
+
 .button-login:hover  {
     background-color: white;
     color: black;
